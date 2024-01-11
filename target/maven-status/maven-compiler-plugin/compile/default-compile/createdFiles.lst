@@ -1,0 +1,8 @@
+com\meusboleto\model\Transaction.class
+com\meusboleto\repository\BankRepositoty.class
+com\meusboleto\Main.class
+com\meusboleto\model\Account.class
+com\meusboleto\dto\BankDTO.class
+com\meusboleto\dto\TransactionDTO.class
+com\meusboleto\dto\AccountDTO.class
+com\meusboleto\model\Bank.class
