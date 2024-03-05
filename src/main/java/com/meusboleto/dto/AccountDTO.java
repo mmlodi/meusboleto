@@ -3,18 +3,18 @@ package com.meusboleto.dto;
 import com.meusboleto.model.Bank;
 
 public class AccountDTO {
-    private String id;
+    private Integer id;
     private String accountId;
     private String name;
     // other fields...
     
     private Bank bank;
     
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

@@ -2,6 +2,7 @@ package com.meusboleto.rest;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
@@ -49,6 +50,13 @@ public class AccountREST {
     }
 
     @PostMapping(value = "/accounts", produces = "application/json;charset=UTF-8")
-    public AccountDTO inserir(@RequestBody AccountDTO)
-
+    public AccountDTO inserir(@RequestBody AccountDTO account){
+        // salva a Entidade convertida do DTO
+        Account c = mapper.map(account, Account.class);
+        accountRepo.save(c);      
+        // busca o usuário inserido
+        Optional<Account> acc = accountRepo.findById(c.getId());
+        // retorna o DTO equivalente à entidade
+        return mapper.map(acc, AccountDTO.class);
+    }
 }

@@ -7,7 +7,7 @@ import com.meusboleto.model.Account;
 public class BankDTO {
     private String id;
 
-    private String bankId;
+    private Integer bankId;
     private String name;
     private Integer tombstone;
 
@@ -22,11 +22,11 @@ public class BankDTO {
         this.id = id;
     }
 
-    public String getBankId() {
+    public Integer getBankId() {
         return bankId;
     }
 
-    public void setBankId(String bankId) {
+    public void setBankId(Integer bankId) {
         this.bankId = bankId;
     }
 

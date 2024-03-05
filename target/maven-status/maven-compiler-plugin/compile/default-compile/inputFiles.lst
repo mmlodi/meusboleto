@@ -5,4 +5,7 @@ C:\Users\mmisc\Documents\Projetos\meusboleto\src\main\java\com\meusboleto\reposi
 C:\Users\mmisc\Documents\Projetos\meusboleto\src\main\java\com\meusboleto\model\Account.java
 C:\Users\mmisc\Documents\Projetos\meusboleto\src\main\java\com\meusboleto\dto\BankDTO.java
 C:\Users\mmisc\Documents\Projetos\meusboleto\src\main\java\com\meusboleto\dto\TransactionDTO.java
+C:\Users\mmisc\Documents\Projetos\meusboleto\src\main\java\com\meusboleto\rest\AccountREST.java
 C:\Users\mmisc\Documents\Projetos\meusboleto\src\main\java\com\meusboleto\Main.java
+C:\Users\mmisc\Documents\Projetos\meusboleto\src\main\java\com\meusboleto\repository\TransactionRepository.java
+C:\Users\mmisc\Documents\Projetos\meusboleto\src\main\java\com\meusboleto\repository\AccountRepository.java
